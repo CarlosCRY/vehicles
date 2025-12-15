@@ -1,16 +1,18 @@
 package org.ies.tierno.models;
 
 public class Car extends Vehicle {
-    protected String race;
+    protected int doors;
+    protected int horsePower;
 
-    public Car (String name, int age, String race){
-        super(name, age);
-        this.race = race;
+    public Car (String licensePlate, int km, int doors, int horsePower){
+        super(licensePlate, km);
+        this.doors = doors;
+        this.horsePower = horsePower;
     }
 
     @Override
     public void showInfo() {
         showVehicleInfo();
-        System.out.print(" Raza: " + race);
+        System.out.print(", Puertas: " + doors + ", Caballos: " + horsePower);
     }
 }

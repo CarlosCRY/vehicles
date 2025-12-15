@@ -2,21 +2,21 @@ package org.ies.tierno;
 
 import org.ies.tierno.models.Truck;
 import org.ies.tierno.models.Car;
-import org.ies.tierno.models.Pig;
+import org.ies.tierno.models.MBike;
 
 public class Main {
     public static void main(String[] args) {
-        Truck truck = new Truck("Garfield", 47, "Atigrado");
-        Car car = new Car("Dogbert", 36, "Supremacista");
-        Pig pig = new Pig ("Capitalista", 249, "Dinero");
+        Truck truck = new Truck("1539AI", 2015, 2);
+        Car car = new Car("KNIGHT", 1983, 2, 145);
+        MBike bike = new MBike("1992SNK", 3939, 1745);
 
         truck.showInfo();
-        truck.move(5);
+        truck.move(936);
 
         car.showInfo();
-        car.talk();
+        car.move(8);
 
-        pig.showInfo();
-        pig.talk();
+        bike.showInfo();
+        bike.move(687);
     }
 }
