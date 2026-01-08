@@ -11,6 +11,6 @@ public class MBike extends Vehicle {
     @Override
     public void showInfo() {
         showVehicleInfo();
-        System.out.print(", Cilindrada: " + cilCapacity);
+        System.out.print(", Cilindrada: " + cilCapacity + "\n");
     }
 }

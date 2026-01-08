@@ -19,7 +19,9 @@ public class Main {
         Vehicle vehicle = vehicleReader.read();
 
         vehicle.showInfo();
-        vehicle.move(scanner.nextInt());
 
+        System.out.println("\nIntroduce los kilómetros realizados\n");
+
+        vehicle.move(scanner.nextInt());
     }
 }

@@ -11,6 +11,6 @@ public class Truck extends Vehicle {
     @Override
     public void showInfo() {
         showVehicleInfo();
-        System.out.print(", Ejes: " + axles);
+        System.out.print(", Ejes: " + axles + "\n");
     }
 }

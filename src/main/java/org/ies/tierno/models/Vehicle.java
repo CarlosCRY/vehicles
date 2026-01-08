@@ -18,6 +18,7 @@ public abstract class Vehicle {
     public final void move (int x) {
         System.out.println("\nRecorridos " + x + " kilómetros más.\n");
         km += x;
+        System.out.println("\nEl nuevo total de kilómetros realizados es: " + km);
     }
 
 }

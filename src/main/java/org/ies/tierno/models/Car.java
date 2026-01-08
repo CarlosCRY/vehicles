@@ -13,6 +13,6 @@ public class Car extends Vehicle {
     @Override
     public void showInfo() {
         showVehicleInfo();
-        System.out.print(", Puertas: " + doors + ", Caballos: " + horsePower);
+        System.out.print(", Puertas: " + doors + ", Caballos: " + horsePower + "\n");
     }
 }
