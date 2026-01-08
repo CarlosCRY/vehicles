@@ -9,7 +9,7 @@ public abstract class Vehicle {
     protected String licensePlate;
     protected int km;
 
-    protected abstract void showInfo ();
+    public abstract void showInfo ();
 
     protected void showVehicleInfo () {
         System.out.print("\nMatrícula: " + licensePlate + ", KM realizados: " + km);
